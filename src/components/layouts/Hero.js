@@ -1,14 +1,17 @@
 import React from 'react';
-
+import a from '../layouts/1.jpg';
+import './Hero.css'
 const Hero = () => {
      return (
-        <section class="hero is-info is-large">
+        <section class="hero bg is-large">
         <div class="hero-head">
+        
           <nav class="navbar">
+          
             <div class="container">
               <div class="navbar-brand">
                 <a class="navbar-item">
-                  
+                 
                 </a>
                 <span class="navbar-burger burger" data-target="navbarMenuHeroB">
                   <span></span>
@@ -52,33 +55,11 @@ const Hero = () => {
           </div>
         </div>
       
-        <div class="hero-foot">
-          <nav class="tabs is-boxed is-fullwidth">
-            <div class="container">
-              <ul>
-                <li class="is-active">
-                  <a>About</a>
-                </li>
-                <li>
-                  <a>Languages</a>
-                </li>
-                <li>
-                  <a>Good At</a>
-                </li>
-                <li>
-                  <a>Frameworks</a>
-                </li>
-                <li>
-                  <a>Tools & Libraries</a>
-                </li>
-                <li>
-                  <a>Education</a>
-                </li>
-               
-              </ul>
-            </div>
-          </nav>
-        </div>
+            
+          
+         
+       
+        
       </section>
       
      )
