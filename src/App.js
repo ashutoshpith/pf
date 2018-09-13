@@ -2,17 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
 import Navbar from './components/layouts/Navbar';
+import Hero from './components/layouts/Hero';
+import Footer from './components/layouts/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-        <Navbar/>
-        <h1 className="App-title">Welcome to React</h1>
+        
+        <h1 className="App-title">
+        <Hero/>
+        </h1>
         </header>
-        <p className="App-intro">
-         
+        <p className="App-footer">
+         <Footer/>
         </p>
       </div>
     );

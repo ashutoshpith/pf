@@ -61,7 +61,7 @@ class Navbar extends React.Component{
                       <i class="fab fa-twitter"></i>
                     </span>
                     <span>
-                      Tweet
+                      LinkedIn
                     </span>
                   </a>
                 </p>
@@ -70,7 +70,7 @@ class Navbar extends React.Component{
                     <span class="icon">
                       <i class="fas fa-download"></i>
                     </span>
-                    <span>Download</span>
+                    <span>StackOverFlow</span>
                   </a>
                 </p>
               </div>
