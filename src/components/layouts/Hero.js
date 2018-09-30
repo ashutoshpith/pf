@@ -3,7 +3,7 @@ import a from '../layouts/1.jpg';
 import './Hero.css'
 const Hero = () => {
      return (
-        <section class="hero bg is-large">
+        <section class="hero is-large">
         <div class="hero-head">
         
           <nav class="navbar">
@@ -47,10 +47,11 @@ const Hero = () => {
         <div class="hero-body">
           <div class="container has-text-centered">
             <p class="title">
-              He Codes
+            I am a full stack web developer specializing mostly in Ruby on rails but also work with
+JavaScript/Node, PHP, Python, Django, Java,java-fx
             </p>
-            <p class="subtitle">
-              Ashutosh
+            <p class="title">
+              Ashutosh Singh
             </p>
           </div>
         </div>
